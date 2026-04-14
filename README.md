@@ -70,6 +70,17 @@ Further options include: [Huawei App Gallery](https://appgallery.huawei.com/#/ap
 * **Help Center (Tutorials):** Learn [how to work with the app](https://helpcenter.onlyoffice.com/mobile/android/documents?utm_source=github&utm_medium=cpc&utm_campaign=GitHubAppAndroid).
 * **Need help for developers?** Check our [API documentation](https://api.onlyoffice.com/?utm_source=github&utm_medium=cpc&utm_campaign=GitHubAppAndroid).
 
+## Certificate Fingerprints
+
+- **SHA1**: 2B:DC:0D:29:7A:FA:CA:18:96:F6:58:5D:25:30:7E:6E:C0:3F:BC:FF
+- **SHA256**: E1:A8:B9:3D:A6:BD:E8:52:A2:F6:F5:A5:E6:7C:04:10:C8:4F:E1:D2:A2:F2:0B:42:D3:BB:5C:36:39:DF:9D:C2
+
+To verify these fingerprints, use the following command:
+
+```bash
+apksigner verify --print-certs <path_to_apk>
+```
+
 ## License
 
 ONLYOFFICE Documents for Android is released under the AGPLv3 license. See the LICENSE [file](https://github.com/ONLYOFFICE/documents-app-android/blob/master/LICENSE.txt) for complete licensing information and terms of use.
